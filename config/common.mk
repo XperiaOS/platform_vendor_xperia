@@ -13,6 +13,7 @@ PRODUCT_COPY_FILES += \
     vendor/xperia/prebuilt/common/bin/backuptool.sh:install/bin/backuptool.sh \
     vendor/xperia/prebuilt/common/bin/backuptool.functions:install/bin/backuptool.functions \
     vendor/xperia/prebuilt/common/bin/50-base.sh:system/addon.d/50-base.sh \
+    vendor/xperia/prebuilt/common/bin/blacklist:system/addon.d/blacklist
 
 # Power whitelist
 PRODUCT_COPY_FILES += \
