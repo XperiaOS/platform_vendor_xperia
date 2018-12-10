@@ -147,3 +147,9 @@ PRODUCT_COPY_FILES += \
     $(CAMERA_PATH)/sound1/shutter_done.wav:system/media/audio/camera/sound1/shutter_done.wav \
     $(CAMERA_PATH)/sound1/start_rec.m4a:system/media/audio/camera/sound1/start_rec.m4a \
     $(CAMERA_PATH)/sound1/stop_rec.m4a:system/media/audio/camera/sound1/stop_rec.m4a
+    
+# XperiaOS Sounds
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.config.alarm_alert=Xperia_alarm.ogg \
+    ro.config.ringtone=Ringer.ogg \
+    ro.config.notification_sound=Notification.ogg
