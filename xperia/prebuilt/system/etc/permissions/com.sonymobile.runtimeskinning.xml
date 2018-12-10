@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   Copyright (C) 2017 Sony Mobile Communications Inc.
+   All rights, including trade secret rights, reserved.
+-->
+<permissions>
+    <library name="com.sonymobile.runtimeskinning"
+             file="/system/framework/com.sonymobile.runtimeskinning.jar"/>
+    <library name="com.sonymobile.runtimeskinning_2"
+             file="/system/framework/com.sonymobile.runtimeskinning.jar"/>
+    <library name="com.sonymobile.runtimeskinning_3"
+             file="/system/framework/com.sonymobile.runtimeskinning.jar"/>
+    <library name="com.sonymobile.runtimeskinning.sound.ringtone"
+             file="/system/framework/com.sonymobile.runtimeskinning.jar"/>
+    <library name="com.sonymobile.runtimeskinning.sound.notificaiton"
+             file="/system/framework/com.sonymobile.runtimeskinning.jar"/>
+    <library name="com.sonymobile.runtimeskinning.sound.alarm"
+             file="/system/framework/com.sonymobile.runtimeskinning.jar"/>
+    <library name="com.sonymobile.runtimeskinning.multiuser"
+             file="/system/framework/com.sonymobile.runtimeskinning.jar"/>
+    <library name="com.sonymobile.runtimeskinning.selective"
+             file="/system/framework/com.sonymobile.runtimeskinning.jar"/>
+    <library name="com.sonymobile.runtimeskinning.livewallpaper.hideable"
+             file="/system/framework/com.sonymobile.runtimeskinning.jar"/>
+</permissions>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<permissions>
+    <library
+            name="com.sonymobile.imageprocessor.bypasscamera.api"
+            file="/system/framework/com.sonymobile.imageprocessor.bypasscamera_impl.jar"
+    />
+</permissions>
+

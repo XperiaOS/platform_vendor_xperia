@@ -48,3 +48,6 @@ include vendor/xperia/config/packages.mk
 
 # Media
 include vendor/xperia/media/media.mk
+
+# Xperia
+include vendor/xperia/xperia/xperia.mk

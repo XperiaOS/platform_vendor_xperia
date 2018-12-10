@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2016 Sony Mobile Communications Inc.
+     All rights, including trade secret rights, reserved.
+-->
+<permissions>
+    <library name="com.sonymobile.enterprise.api_12" file="/system/framework/com.sonymobile.enterprise_impl.jar"/>
+    <library name="com.sonymobile.enterprise.api_11" file="/system/framework/com.sonymobile.enterprise_impl.jar"/>
+    <library name="com.sonymobile.enterprise.api_10" file="/system/framework/com.sonymobile.enterprise_impl.jar"/>
+    <library name="com.sonymobile.enterprise.api_9"  file="/system/framework/com.sonymobile.enterprise_impl.jar"/>
+    <library name="com.sonymobile.enterprise.api_8"  file="/system/framework/com.sonymobile.enterprise_impl.jar"/>
+    <library name="com.sonymobile.enterprise.api_7"  file="/system/framework/com.sonymobile.enterprise_impl.jar"/>
+    <library name="com.sonymobile.enterprise.api_6"  file="/system/framework/com.sonymobile.enterprise_impl.jar"/>
+    <library name="com.sonymobile.enterprise.api_5"  file="/system/framework/com.sonymobile.enterprise_impl.jar"/>
+    <library name="com.sonymobile.enterprise.api_4"  file="/system/framework/com.sonymobile.enterprise_impl.jar"/>
+    <library name="com.sonymobile.enterprise.api_3"  file="/system/framework/com.sonymobile.enterprise_impl.jar"/>
+</permissions>
