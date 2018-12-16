@@ -49,6 +49,19 @@ LOCAL_MODULE_PATH := system/app
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := SemcEmail
+LOCAL_MODULE_OWNER := sony
+LOCAL_SRC_FILES := prebuilt/system/app/SemcEmail-release/SemcEmail-release.apk
+LOCAL_CERTIFICATE := platform 
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_OVERRIDES_PACKAGES := Email
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_MODULE_PATH := system/app
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := SomcXperiaServices
 LOCAL_MODULE_OWNER := sony
 LOCAL_SRC_FILES := prebuilt/system/app/SomcXperiaServices/SomcXperiaServices.apk
