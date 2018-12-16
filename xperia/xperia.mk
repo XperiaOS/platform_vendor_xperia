@@ -43,6 +43,7 @@ LOCAL_SRC_FILES := prebuilt/system/app/SemcClock-release/SemcClock-release.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
+LOCAL_OVERRIDES_PACKAGES := DeskClock
 LOCAL_DEX_PREOPT := false
 LOCAL_MODULE_SUFFIX := .apk
 LOCAL_MODULE_PATH := system/app
