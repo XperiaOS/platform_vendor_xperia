@@ -14,6 +14,10 @@ PRODUCT_COPY_FILES += \
     vendor/xperia/prebuilt/common/bin/backuptool.functions:install/bin/backuptool.functions \
     vendor/xperia/prebuilt/common/bin/50-base.sh:system/addon.d/50-base.sh \
 
+# Power whitelist
+PRODUCT_COPY_FILES += \
+    vendor/xperia/config/permissions/xperia-power-whitelist.xml:system/etc/sysconfig/xperia-power-whitelist.xml
+
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     keyguard.no_require_sim=true \
     dalvik.vm.debug.alloc=0 \
