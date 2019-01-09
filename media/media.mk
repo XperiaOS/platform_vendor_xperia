@@ -5,6 +5,10 @@ NOTIFICATIONS_PATH := vendor/xperia/media/audio/notifications
 UI_PATH := vendor/xperia/media/audio/ui
 CAMERA_PATH := vendor/xperia/media/audio/camera
 
+# Boot Animation
+PRODUCT_COPY_FILES += \
+    $(MEDIA_PATH)/bootanimation.zip:system/media/bootanimation.zip
+
 # Alarm Sounds
 PRODUCT_COPY_FILES += \
     $(ALARMS_PATH)/alarm.ogg:system/media/audio/alarms/alarm.ogg \
