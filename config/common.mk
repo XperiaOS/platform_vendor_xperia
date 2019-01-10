@@ -49,5 +49,5 @@ include vendor/xperia/config/packages.mk
 # Media
 include vendor/xperia/media/media.mk
 
-# Xperia
-include vendor/xperia/xperia/xperia.mk
+# Xapps
+include vendor/xperia/xapps/xapps.mk

@@ -291,7 +291,7 @@ LOCAL_PRIVILEGED_MODULE := true
 LOCAL_MODULE_PATH := system/priv-app
 include $(BUILD_PREBUILT)
 
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/xperia/xperia/prebuilt/system/etc,system/etc)
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/xperia/xperia/prebuilt/system/framework,system/framework)
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/xperia/xperia/prebuilt/system/lib,system/lib)
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/xperia/xperia/prebuilt/system/lib64,system/lib64)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/xperia/xapps/prebuilt/system/etc,system/etc)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/xperia/xapps/prebuilt/system/framework,system/framework)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/xperia/xapps/prebuilt/system/lib,system/lib)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/xperia/xapps/prebuilt/system/lib64,system/lib64)
