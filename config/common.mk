@@ -50,4 +50,4 @@ include vendor/xperia/config/packages.mk
 include vendor/xperia/media/media.mk
 
 # Xapps
-include vendor/xperia/xapps/xapps.mk
+$(call inherit-product, vendor/xperia/xapps/xapps.mk)
