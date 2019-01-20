@@ -51,3 +51,6 @@ include vendor/xperia/media/media.mk
 
 # Xapps
 $(call inherit-product, vendor/xperia/xapps/xapps.mk)
+
+# Overlay
+DEVICE_PACKAGE_OVERLAYS += vendor/xperia/overlay/common
