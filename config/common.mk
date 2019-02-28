@@ -66,3 +66,6 @@ $(call inherit-product, vendor/xperia/xapps/xapps.mk)
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += vendor/xperia/overlay/common
+
+# Xperia
+include vendor/xperia/build/core/version.mk

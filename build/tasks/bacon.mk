@@ -16,10 +16,12 @@
 # -----------------------------------------------------------------
 # XperiaOS OTA update package
 
-XPERIA_TARGET_PACKAGE := $(PRODUCT_OUT)/XperiaOS-$(XPERIA_VERSION).zip
+XPERIA_TARGET_PACKAGE := $(PRODUCT_OUT)/$(XPERIA_VERSION).zip
 
-.PHONY: bacon
-bacon: $(INTERNAL_OTA_PACKAGE_TARGET)
+.PHONY: bacon xperia
+xperia: $(INTERNAL_OTA_PACKAGE_TARGET)
 	$(hide) ln -f $(INTERNAL_OTA_PACKAGE_TARGET) $(XPERIA_TARGET_PACKAGE)
 	$(hide) $(MD5SUM) $(XPERIA_TARGET_PACKAGE) | sed "s|$(PRODUCT_OUT)/||" > $(XPERIA_TARGET_PACKAGE).md5sum
         @echo "Package Complete: $(XPERIA_TARGET_PACKAGE)" >&2
+
+bacon: xperia
