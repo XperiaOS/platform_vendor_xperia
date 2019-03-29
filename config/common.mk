@@ -65,6 +65,7 @@ PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 
 # Packages
 include vendor/xperia/config/packages.mk
+include vendor/themes/config.mk
 
 # Media
 include vendor/xperia/media/media.mk
